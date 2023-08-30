@@ -2,3 +2,26 @@
  * Afonso do Canto website
  * Copyright 2023 Ricardo do Canto
  */
+
+@charset "utf-8";
+
+/* Utilities */
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/functions';
+@import 'bulma/sass/utilities/derived-variables';
+@import 'bulma/sass/utilities/mixins';
+@import 'bulma/sass/utilities/controls';
+@import 'bulma/sass/utilities/extends';
+
+/* Base  */
+@import 'bulma/sass/base/minireset';
+@import 'bulma/sass/base/generic';
+
+/* Elements */
+@import 'bulma/sass/elements/container';
+
+/* Components */
+@import 'bulma/sass/components/navbar';
+
+/* Helpers */
+@import 'bulma/sass/helpers/color';
