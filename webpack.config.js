@@ -1,6 +1,8 @@
 /*!
  * Afonso do Canto website
  *
+ * Licensed under MIT (https://github.com/EnduranceCode/afonsodocanto-website/blob/master/LICENSE)
+ *
  * Copyright 2023 Ricardo do Canto
  */
 
