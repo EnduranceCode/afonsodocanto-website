@@ -1,9 +1,9 @@
 /*!
  * Afonso do Canto website
+ *
  * Copyright 2023 Ricardo do Canto
  *
- * Configuratio file for sass-loader
- * https://github.com/webpack-contrib/sass-loader
+ * Configuration file for sass-loader https://github.com/webpack-contrib/sass-loader
  */
 
 module.exports = {

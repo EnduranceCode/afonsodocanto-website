@@ -1,6 +1,9 @@
 /*!
  * Afonso do Canto website
+ *
  * Copyright 2023 Ricardo do Canto
+ *
+ * The CSS of this website is based on the Bulma CSS Framework (https: //bulma.io/)
  */
 
 @charset "utf-8";
@@ -16,12 +19,14 @@
 /* Base  */
 @import 'bulma/sass/base/minireset';
 @import 'bulma/sass/base/generic';
+@import 'base/base.scss';
 
 /* Elements */
 @import 'bulma/sass/elements/container';
-
+@import 'bulma/sass/elements/image';
 /* Components */
 @import 'bulma/sass/components/navbar';
 
 /* Helpers */
 @import 'bulma/sass/helpers/color';
+@import 'bulma/sass/helpers/typography';

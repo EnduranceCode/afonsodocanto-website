@@ -1,5 +1,6 @@
 /*!
  * Afonso do Canto website
+ *
  * Copyright 2023 Ricardo do Canto
  */
 
@@ -31,6 +32,13 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.(gif|jpg|jpeg|png|svg|webp)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'img/[name][ext]',
+        },
+      },
       {
         test: /\.(s[ac]|c)ss$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader', 'postcss-loader'],
