@@ -1,6 +1,10 @@
 /*!
  * Afonso do Canto website
+ *
  * Copyright 2023 Ricardo do Canto
+ *
+ * Licensed under MIT (https://github.com/EnduranceCode/afonsodocanto-website/blob/master/LICENSE)
+ *
  */
 
 import '../scss/style.scss';
